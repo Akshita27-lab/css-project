@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(221, 107, 164);
+}
+#nav{
+  height: 100px;
+  width: 100%;
+  background-color: whitesmoke;
+ color: palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+#nav1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ #nav h3{
+  font-size: 17px;
+  border: 1.5px solid palevioletred;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+#nav i{
+  font-size: 17px;
+  border: 1.5px solid palevioletred;
+  font-weight: 500px;
+  padding:  3px 6px;
+  border-radius: 50px;
+}
+#nav2{
+  font-size: 40px;
+  font-style: italic;
+}
+#nav button{
+  padding: 5px 10px;
+  color: palevioletred;
+  border: 1.5px solid palevioletred;
+  border-radius: 50px;
+  font-size: 17px;
+  
+}
+#main>h1{
+  font-size: 130px;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+}
+#main>img{
+  height: 450px;
+  width: 350px;
+  object-fit: cover;
+  border: solid rgb(247, 246, 246);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+#img1{
+  rotate: -15deg;
+}
+#img2{
+  rotate: -10deg;
+  }
+#img3{
+ rotate: -5deg;
+}
+#btw{
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  font-size: 17px;
+  color: aliceblue;
+  font-style: italic;
+  }
+  #insta{
+    position: absolute;
+  bottom: 3%;
+  right: 2%;
+  font-size: 20px;
+  color: aliceblue;
+  }
+  #youtube{
+    position: absolute;
+  bottom: 3%;
+  right: 4%;
+  font-size: 20px;
+  color: aliceblue;
+  }
+
+  #facebook{
+    position: absolute;
+  bottom: 3%;
+  right: 6%;
+  font-size: 20px;
+  color: aliceblue;
+  }
+
+
